@@ -1,0 +1,149 @@
+********************************************************************************
+product = Open Liberty 19.0.0.6 (wlp-1.0.29.cl190620190617-1530)
+wlp.install.dir = /Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/target/liberty/wlp/
+java.home = /Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home
+java.version = 12.0.1
+java.runtime = Java(TM) SE Runtime Environment (12.0.1+12)
+os = Mac OS X (10.14.5; x86_64) (en_CN)
+process = 65595@yunfanchens-mbp.cn.ibm.com
+********************************************************************************
+[7/8/19, 10:12:28:043 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: The server defaultServer has been launched.
+[7/8/19, 10:12:29:157 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 1.392 seconds
+[7/8/19, 10:12:29:229 CST] 0000001e com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[7/8/19, 10:12:29:959 CST] 00000015 .apache.cxf.cxf.core.3.2:1.0.29.cl190620190617-1530(id=136)] I Aries Blueprint packages not available. So namespaces will not be registered
+[7/8/19, 10:12:29:962 CST] 00000015 .apache.cxf.cxf.core.3.2:1.0.29.cl190620190617-1530(id=136)] I Aries Blueprint packages not available. So namespaces will not be registered
+[7/8/19, 10:12:30:119 CST] 00000015 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications.
+[7/8/19, 10:12:30:301 CST] 00000024 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv6) port 9080.
+[7/8/19, 10:12:30:690 CST] 0000002a com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application microprofile-rest-client.
+[7/8/19, 10:12:30:691 CST] 0000002a bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: The microprofile-rest-client application is using the loose application definition at the /Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/target/liberty/wlp/usr/servers/defaultServer/apps/microprofile-rest-client.war.xml location.
+[7/8/19, 10:12:30:987 CST] 0000002a com.ibm.ws.session.WASSessionCore                            I SESN8501I: The session manager did not find a persistent storage location; HttpSession objects will be stored in the local application server's memory.
+[7/8/19, 10:12:31:020 CST] 0000002a org.jboss.weld.Version                                       I WELD-000900: 3.1.1 (Final)
+[7/8/19, 10:12:31:598 CST] 0000002a com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: Liberty Project.
+[7/8/19, 10:12:31:599 CST] 0000002a com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module Liberty Project has been bound to default_host.
+[7/8/19, 10:12:31:600 CST] 0000002a com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Web application available (default_host): http://yunfanchens-mbp.cn.ibm.com:9080/
+[7/8/19, 10:12:31:604 CST] 0000002a com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Application microprofile-rest-client started in 0.914 seconds.
+[7/8/19, 10:12:31:620 CST] 00000024 com.ibm.ws.session.WASSessionCore                            I SESN0176I: A new session context will be created for application key default_host/
+[7/8/19, 10:12:31:630 CST] 00000024 com.ibm.ws.util                                              I SESN0172I: The session manager is using the Java default SecureRandom implementation for session ID generation.
+[7/8/19, 10:12:31:649 CST] 0000001e com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: The server installed the following features: [cdi-2.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, jsonp-1.1, mpConfig-1.3, mpRestClient-1.2, servlet-4.0].
+[7/8/19, 10:12:31:650 CST] 0000001e com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Feature update completed in 2.496 seconds.
+[7/8/19, 10:12:31:650 CST] 0000001e com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: The defaultServer server is ready to run a smarter planet. The defaultServer server started in 3.888 seconds.
+[7/8/19, 10:12:31:863 CST] 00000032 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: A configuration file for a web server plugin was automatically generated for this server at /Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/target/liberty/wlp/usr/servers/defaultServer/logs/state/plugin-cfg.xml.
+[7/8/19, 10:12:32:965 CST] 00000024 .apache.cxf.cxf.core.3.2:1.0.29.cl190620190617-1530(id=136)] I Setting the server's publish address to be /system/
+[7/8/19, 10:12:33:011 CST] 00000024 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [microprofile-rest-client] [/] [io.openliberty.guides.system.SystemApplication]: Initialization successful.
+[7/8/19, 10:12:33:186 CST] 00000033 .apache.cxf.cxf.core.3.2:1.0.29.cl190620190617-1530(id=136)] I Setting the server's publish address to be /inventory/
+[7/8/19, 10:12:33:192 CST] 00000033 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [microprofile-rest-client] [/] [io.openliberty.guides.inventory.InventoryApplication]: Initialization successful.
+[7/8/19, 10:12:33:376 CST] 00000040 penliberty.guides.inventory.client.UnknownUrlExceptionMapper I status = 200
+[7/8/19, 10:12:33:456 CST] 0000002f .apache.cxf.cxf.core.3.2:1.0.29.cl190620190617-1530(id=136)] W Interceptor for {http://client.inventory.guides.openliberty.io/}SystemClient has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:67)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.jaxrs.client.AbstractClient.doRunInterceptorChain(AbstractClient.java:712)
+	at org.apache.cxf.microprofile.client.proxy.MicroProfileClientProxyImpl.doRunInterceptorChain(MicroProfileClientProxyImpl.java:175)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.doChainedInvocation(ClientProxyImpl.java:895)
+	at org.apache.cxf.jaxrs.client.ClientProxyImpl.invoke(ClientProxyImpl.java:343)
+	at org.apache.cxf.microprofile.client.proxy.MicroProfileClientProxyImpl.invokeActual(MicroProfileClientProxyImpl.java:438)
+	at org.apache.cxf.microprofile.client.proxy.MicroProfileClientProxyImpl.access$000(MicroProfileClientProxyImpl.java:73)
+	at org.apache.cxf.microprofile.client.proxy.MicroProfileClientProxyImpl$Invoker.call(MicroProfileClientProxyImpl.java:460)
+	at org.apache.cxf.microprofile.client.cdi.CDIInterceptorWrapperImpl.invoke(CDIInterceptorWrapperImpl.java:190)
+	at org.apache.cxf.microprofile.client.proxy.MicroProfileClientProxyImpl.invoke(MicroProfileClientProxyImpl.java:433)
+	at com.sun.proxy.$Proxy50.getProperties(Unknown Source)
+	at io.openliberty.guides.inventory.InventoryManager.getPropertiesWithGivenHostName(InventoryManager.java:93)
+	at io.openliberty.guides.inventory.InventoryManager.get(InventoryManager.java:52)
+	at io.openliberty.guides.inventory.InventoryManager$Proxy$_$$_WeldClientProxy.get(Unknown Source)
+	at io.openliberty.guides.inventory.InventoryResource.getPropertiesForHost(InventoryResource.java:42)
+	at io.openliberty.guides.inventory.InventoryResource$Proxy$_$$_WeldClientProxy.getPropertiesForHost(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsServerFactoryBean.performInvocation(LibertyJaxRsServerFactoryBean.java:656)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.performInvocation(LibertyJaxRsInvoker.java:160)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:273)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:205)
+	at com.ibm.ws.jaxrs20.server.LibertyJaxRsInvoker.invoke(LibertyJaxRsInvoker.java:444)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:111)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:61)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:99)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:124)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:275)
+	at com.ibm.ws.jaxrs20.endpoint.AbstractJaxRsWebEndpoint.invoke(AbstractJaxRsWebEndpoint.java:134)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.handleRequest(IBMRestServlet.java:146)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.doGet(IBMRestServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:686)
+	at com.ibm.websphere.jaxrs.server.IBMRestServlet.service(IBMRestServlet.java:96)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.service(ServletWrapper.java:1255)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:743)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.handleRequest(ServletWrapper.java:440)
+	at com.ibm.ws.webcontainer.filter.WebAppFilterManager.invokeFilters(WebAppFilterManager.java:1221)
+	at com.ibm.ws.webcontainer.webapp.WebApp.handleRequest(WebApp.java:4975)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.handleRequest(DynamicVirtualHost.java:314)
+	at com.ibm.ws.webcontainer.WebContainer.handleRequest(WebContainer.java:1007)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost$2.run(DynamicVirtualHost.java:279)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink$TaskWrapper.run(HttpDispatcherLink.java:1061)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.wrapHandlerAndExecute(HttpDispatcherLink.java:417)
+	at com.ibm.ws.http.dispatcher.internal.channel.HttpDispatcherLink.ready(HttpDispatcherLink.java:376)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleDiscrimination(HttpInboundLink.java:532)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.handleNewRequest(HttpInboundLink.java:466)
+	at com.ibm.ws.http.channel.internal.inbound.HttpInboundLink.processRequest(HttpInboundLink.java:331)
+	at com.ibm.ws.http.channel.internal.inbound.HttpICLReadCallback.complete(HttpICLReadCallback.java:70)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.requestComplete(WorkQueueManager.java:503)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:573)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.workerRun(WorkQueueManager.java:954)
+	at com.ibm.ws.tcpchannel.internal.WorkQueueManager$Worker.run(WorkQueueManager.java:1043)
+	at com.ibm.ws.threading.internal.ExecutorServiceImpl$RunnableWrapper.run(ExecutorServiceImpl.java:239)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+Caused by: java.net.UnknownHostException: UnknownHostException invoking http://badhostname:9080/system/properties: badhostname
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.mapException(HTTPConduit.java:1451)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1434)
+	at org.apache.cxf.io.AbstractWrappedOutputStream.close(AbstractWrappedOutputStream.java:77)
+	at org.apache.cxf.transport.AbstractConduit.close(AbstractConduit.java:56)
+	at org.apache.cxf.transport.http.HTTPConduit.close(HTTPConduit.java:689)
+	at org.apache.cxf.interceptor.MessageSenderInterceptor$MessageSenderEndingInterceptor.handleMessage(MessageSenderInterceptor.java:63)
+	... 60 more
+Caused by: java.net.UnknownHostException: badhostname
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:220)
+	at java.base/java.net.Socket.connect(Socket.java:591)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:474)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:569)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:242)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:341)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:362)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1221)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1075)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1009)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1581)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1509)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream$2.run(URLConnectionHTTPConduit.java:408)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream$2.run(URLConnectionHTTPConduit.java:404)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:551)
+	at org.apache.cxf.transport.http.URLConnectionHTTPConduit$URLConnectionWrappedOutputStream.getResponseCode(URLConnectionHTTPConduit.java:404)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.doProcessResponseCode(HTTPConduit.java:1651)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponseInternal(HTTPConduit.java:1679)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.handleResponse(HTTPConduit.java:1624)
+	at org.apache.cxf.transport.http.HTTPConduit$WrappedOutputStream.close(HTTPConduit.java:1421)
+	... 64 more
+
+[7/8/19, 10:12:33:467 CST] 0000002f SystemErr                                                    R The specified host is unknown.
+[7/8/19, 10:12:33:489 CST] 00000022 penliberty.guides.inventory.client.UnknownUrlExceptionMapper I status = 200
+[7/8/19, 10:12:33:513 CST] 00000021 penliberty.guides.inventory.client.UnknownUrlExceptionMapper I status = 200
+[7/8/19, 10:12:34:116 CST] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Monday, July 8, 2019 at 10:12 AM. The server defaultServer is shutting down.
+[7/8/19, 10:12:34:119 CST] 00000047 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Waiting for up to 30 seconds for the server to quiesce.
+[7/8/19, 10:12:34:123 CST] 00000043 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv6) port 9080.
+[7/8/19, 10:12:34:124 CST] 00000043 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://yunfanchens-mbp.cn.ibm.com:9080/
+[7/8/19, 10:12:35:127 CST] 00000047 com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[7/8/19, 10:12:35:150 CST] 00000048 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [microprofile-rest-client] [/] [io.openliberty.guides.inventory.InventoryApplication]: Destroy successful.
+[7/8/19, 10:12:35:151 CST] 00000048 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [microprofile-rest-client] [/] [io.openliberty.guides.system.SystemApplication]: Destroy successful.
+[7/8/19, 10:12:35:161 CST] 00000048 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: The application microprofile-rest-client has stopped successfully.
+[7/8/19, 10:12:35:388 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server defaultServer stopped after 7.626 seconds.

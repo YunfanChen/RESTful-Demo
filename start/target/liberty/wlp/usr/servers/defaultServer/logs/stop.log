@@ -1,0 +1,13 @@
+
+arg0=defaultServer
+arg1=--pid=
+arg2=--stop
+exit=1
+
+                 Java home:  /Library/Java/JavaVirtualMachines/jdk-12.0.1.jdk/Contents/Home
+              Install root:  /Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/start/target/liberty/wlp/
+          System libraries:  /Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/start/target/liberty/wlp/lib/
+                 User root:  /Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/start/target/liberty/wlp/usr/
+                    Config:  /Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/start/target/liberty/wlp/usr/servers/defaultServer/
+                    Output:  /Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/start/target/liberty/wlp/usr/servers/defaultServer/
+

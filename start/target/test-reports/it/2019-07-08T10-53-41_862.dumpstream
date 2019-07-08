@@ -1,0 +1,15 @@
+# Created at 2019-07-08T10:53:42.772
+WARNING: An illegal reflective access operation has occurred
+
+# Created at 2019-07-08T10:53:42.773
+WARNING: Illegal reflective access by org.apache.cxf.common.util.ReflectionUtil$11 (file:/Users/yunfanchen/.m2/repository/org/apache/cxf/cxf-core/3.2.6/cxf-core-3.2.6.jar) to field java.net.Authenticator.theAuthenticator
+
+# Created at 2019-07-08T10:53:42.773
+WARNING: Please consider reporting this to the maintainers of org.apache.cxf.common.util.ReflectionUtil$11
+
+# Created at 2019-07-08T10:53:42.773
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created at 2019-07-08T10:53:42.774
+WARNING: All illegal access operations will be denied in a future release
+

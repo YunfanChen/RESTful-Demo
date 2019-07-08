@@ -1,0 +1,10 @@
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/system/SystemResource.java
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/inventory/client/SystemClient.java
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/inventory/model/InventoryList.java
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/inventory/InventoryResource.java
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/system/SystemApplication.java
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/inventory/InventoryManager.java
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/inventory/client/UnknownUrlException.java
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/inventory/model/SystemData.java
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/inventory/InventoryApplication.java
+/Users/yunfanchen/Documents/GitHub/guide-microprofile-rest-client/finish/src/main/java/io/openliberty/guides/inventory/client/UnknownUrlExceptionMapper.java
